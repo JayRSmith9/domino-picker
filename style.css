@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 73, 77);
+}
+
+body > h1 {
+    color: palegoldenrod;
+    text-decoration: underline;
+    
+}
+
+.domino-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.domino-list li {
+    list-style: none;
+    font-size: 5rem;
+    transition: transform 0.5s;
+}
+
+.domino-list > li:hover {
+    transform: scale(1, 1.75);
+}
+
+
+.chosen {
+    color: rgb(246, 107, 27);
+    filter: drop-shadow(0 0 2rem white);
+}
+
+.domino-list > li:hover {
+    color: rgb(248, 124, 8);
+}
+
+
+
+
+
